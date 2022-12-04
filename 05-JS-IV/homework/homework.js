@@ -9,12 +9,14 @@ function crearGato (nombre, edad) {
   var obj={
     nombre: nombre,
    edad: edad,
-   meow: function meow{
- return"Meow!";
-  }
-}
-}
+   meow: function meow
+   {
 
+    return"Meow!";
+  
+}
+}
+}
 
 function agregarPropiedad (objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
@@ -155,7 +157,7 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 producto.calcularPrecioDescuento=function(){
-  return thisprecio-(this.precio*thisporcentajeDeDescuento);
+  return thisprecio-(precio*thisporcentajeDeDescuento);
 } 
 return producto;
 }
